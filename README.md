@@ -35,7 +35,7 @@ Control Panel -> administrative Tools -> services -> seek for MongoDB Server(Mon
 ```
 5. Connect and authenticate as the user administrator.
 ```
-mongo --port 27017  --authenticationDatabase "admin" -u "myUserAdmin" -p
+mongo --port 27017  --authenticationDatabase "admin" -u "myUserAdmin" -p "myPassword"
 ```
 Usefell commands
 |command | the value |
